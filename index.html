@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GPT-Tokenizer</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="./js/module.js" defer></script>
+    <script src="./js/app.js" defer></script>
+</head>
+
+<body>
+    <div id="root">
+        <div class="route-container">
+            <div class="public-site page-wrapper">
+                <div class="page-body page-tokenizer">
+                    <div class="page-header">
+                        <h1>GPT-Tokenizer</h1>
+                    </div>
+                    <p>Input a piece of text to see how GPT-3 tokenizes it, and obtain the total count of tokens and characters:</p>
+                    <div class="tokenizer-input">
+                        <textarea id="input-text" class="text-input text-input-md"
+                            placeholder="Enter some text"></textarea>
+                    </div>
+                    <!-- <button onclick="tokenizeText()">Tokenize</button> -->
+                    <div class="tokenizer-stats">
+                        <div class="tokenizer-stat">
+                            <div class="tokenizer-stat-title">Tokens</div>
+                            <div id="token-count" class="tokenizer-stat-val">0</div>
+                        </div>
+                        <div class="tokenizer-stat">
+                            <div class="tokenizer-stat-title">Characters</div>
+                            <div id="character-count" class="tokenizer-stat-val">0</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

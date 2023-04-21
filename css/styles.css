@@ -1,0 +1,56 @@
+.page-body {
+    flex: 1 0 auto;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 40px 56px;
+    padding: var(--content-v-padding) var(--content-h-padding);
+    width: 872px;
+    width: calc(var(--content-width) + var(--content-h-padding)*2);
+}
+
+.tokenizer-input textarea {
+    font-family: var(--monospace);
+    font-size: 15px;
+    min-height: 200px;
+    padding: 10px 12px;
+    width: 100%;
+}
+
+.tokenizer-stats {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1em;
+    transition: opacity .3s
+}
+
+.tokenizer-stat {
+    margin-right: 20px;
+    min-width: 80px;
+}
+
+.tokenizer-stat-title {
+    color: var(--gray-900);
+    font-weight: 700
+}
+
+.tokenizer-stat-val {
+    color: var(--gray-900);
+    font-size: 28px;
+    margin-top: 4px
+}
+
+.route-container {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.public-site {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}

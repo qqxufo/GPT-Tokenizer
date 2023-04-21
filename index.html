@@ -24,7 +24,9 @@
                         <textarea id="input-text" class="text-input text-input-md"
                             placeholder="Enter some text"></textarea>
                     </div>
-                    <!-- <button onclick="tokenizeText()">Tokenize</button> -->
+                    <div class="action-buttons">
+                        <button id="optimize-button">Optimize & Copy</button>
+                    </div>
                     <div class="tokenizer-stats">
                         <div class="tokenizer-stat">
                             <div class="tokenizer-stat-title">Tokens</div>
@@ -33,6 +35,10 @@
                         <div class="tokenizer-stat">
                             <div class="tokenizer-stat-title">Characters</div>
                             <div id="character-count" class="tokenizer-stat-val">0</div>
+                        </div>
+                        <div class="tokenizer-stat optimized-tokens">
+                            <div class="tokenizer-stat-title">Optimized Tokens</div>
+                            <div id="optimized-token-count" class="tokenizer-stat-val">0</div>
                         </div>
                     </div>
                 </div>

@@ -54,3 +54,35 @@
     flex-direction: column;
     min-height: 100vh;
 }
+
+.action-buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#optimize-button {
+    background-color: #4b8bbf;
+    border: 1px solid #4b8bbf;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    outline: none;
+}
+ 
+.optimized-tokens {
+    display: none;
+    color: #5cb85c;
+}
+ 
+#optimize-button:hover {
+    background-color: #2a5f8a;
+    border: 1px solid #2a5f8a;
+}

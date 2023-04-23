@@ -40,7 +40,7 @@ function updateButton() {
 
 function optimizeTokenCount(inputText) {
     const optimizedText = inputText.replace(/[\u3000\n]/g, '')
-        .replace(/([。？！，、；：])/g, '$1 ')
+        .replace(/([。？！，、；：])/g, '$1')
         .replace(/\s+/g, ' ')
         .replace(/( )([.,!?])/g, '$2')
         .replace(/([.,!?])([A-Za-z])/g, '$1 $2');
